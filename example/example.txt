@@ -1,0 +1,26 @@
+Here are some examples for use with ALINK.
+
+TEST.ASM
+
+This is a sample Win32 program written for use with TASM and ALINK
+It displays two message boxes on the screen.
+
+RTN.ASM
+
+This is a sample Win32 program written using NASM. It also demonstrates
+the use of resources.
+
+TDLL.ASM
+
+This is a sample DLL written for NASM. It exports a single function: start
+This displays message boxes when called.
+It also exports "Title1", which is data, and is a string which forms the title
+for the message boxes displayed.
+
+T2.ASM
+
+This is a simple executable that uses the DLL from TDLL.ASM. To display 4
+message boxes - the first two use Title1 as is (Hello), and the second two
+are with Title1 changed to "bye"
+
+
